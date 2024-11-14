@@ -1,0 +1,27 @@
+.sponsors-section {
+    padding: 60px 20px;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.sponsors-title {
+    color: #212529;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.sponsors-logos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+.sponsors-logos img {
+    max-width: 100px;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}

@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1152px) {
+  .container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .pricing-card {
+    margin: 5px;
+    padding: 15px;
+  }
+
+ 
+
+  .hero-title {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 10px;
+  }
+
+  .footer-section, .header-section, .content-section {
+    padding: 20px 5px;
+  }
+
+
+
+  .hero-title {
+    font-size: 1.4em;
+  }
+
+  .pricing-card {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+}
